@@ -33,6 +33,10 @@
       [data-selector="CHAT_CONTAINER"] {
         font-family: "Arial", sans-serif !important;
         font-size: 14px !important;
+
+        /* Hide the close button in the guide */
+      [data-selector="GUIDE_SINGLE_MENU_CLOSE_BUTTON"][aria-label="Hide Chat"][aria-expanded="true"] {
+        display: none !important;
       }
     `);
   </script>
@@ -42,4 +46,5 @@
   <p>The chat widget should load automatically below.</p>
 </body>
 </html>
+
 
